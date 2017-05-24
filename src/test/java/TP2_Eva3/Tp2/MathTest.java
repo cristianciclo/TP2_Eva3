@@ -34,6 +34,16 @@ public class MathTest {
     public void testAdd() {
         Assert.assertEquals(17, math.add());
     } 
+
+    @Test
+    public void testSubtract() {
+        Assert.assertEquals(-3, math.subtract())
+
+    @Test
+    public void testPositiveNegativeSubtract() {
+        math = new Math(7, -3);
+        Assert.assertEquals(10, math.subtract())
+
 }
 
 //-----------------fin código MathTest.java---------------------
