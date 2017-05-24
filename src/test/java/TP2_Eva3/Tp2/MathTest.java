@@ -37,7 +37,7 @@ public class MathTest {
 
     @Test
     public void testSubtract() {
-        Assert.assertEquals(-3, math.add())
+        Assert.assertEquals(-3, math.subtract())
 
     @Test
     public void testPositiveNegativeSubtract() {
